@@ -8,8 +8,8 @@
             </div>
             <div class="goods-info-box">
               <span class="goods-info-name">{{item.name}}</span><br>
-              <span class="goods-info-detail">{{item.detail.substring(0, 38) + '...'}}</span><br>
-              <p class="goods-info-price">￥<span style="font-weight: 600;">{{item.vipPrice}}</span>/件</p>
+              <span class="goods-info-detail">{{item.detail.substring(0, 50) + '...'}}</span><br>
+              <!-- <p class="goods-info-price">￥<span style="font-weight: 600;">{{item.vipPrice}}</span>/件</p> -->
             </div>
           </div>
         </template>
@@ -73,13 +73,13 @@ export default {
 }
 .goods-img-box {
   display: inline-block;
-  width: 33%;
-  height: 33vw;
+  width: 32%;
+  height: 32vw;
   font-size: 0;
   border-radius: 5px;
   overflow: hidden;
   position: absolute;
-  left: .3rem;
+  left: .4rem;
   top: 50%;
   transform: translateY(-50%);
   .goods-img {
