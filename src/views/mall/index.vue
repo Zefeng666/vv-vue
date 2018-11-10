@@ -66,6 +66,7 @@ export default {
   z-index: 100;
 }
 .mall-goods-item {
+  height: 130px;
   text-align: left;
   background-color: #fff;
   padding: .3rem .4rem;
