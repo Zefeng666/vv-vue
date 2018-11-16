@@ -7,7 +7,7 @@
         <div class="picture" :style="'backgroundImage:url('+headerImage+')'"></div>
       </div>
       <div style="margin-top:10px;">
-        <input class="add-btn" type="file" id="upload" accept="image" @change="upload">
+        <input class="add-btn" type="file" id="upload" accept="image/*" @change="upload">
         <label for="upload"></label>
       </div>
     </div>
@@ -17,7 +17,7 @@
         <div class="picture" :style="'backgroundImage:url('+headerImage2+')'"></div>
       </div>
       <div style="margin-top:10px;">
-        <input class="add-btn" type="file" id="upload2" accept="image" @change="upload2">
+        <input class="add-btn" type="file" id="upload2" accept="image/*" @change="upload2">
         <label for="upload2"></label>
       </div>
     </div>
