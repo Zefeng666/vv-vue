@@ -267,8 +267,8 @@ export default {
             this.onBridgeReady(data.data.appId, data.data.nonceStr, data.data.package, data.data.paySign, data.data.timeStamp)   
           } else {
             this.$vux.toast.text("添加线下支付订单成功~", "top");
-            this.showToast = false;
           }
+          this.showToast = false;
         } else {
           this.$vux.toast.text(data.message, "top");
         }
