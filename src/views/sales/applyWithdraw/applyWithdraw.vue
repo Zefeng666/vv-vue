@@ -12,7 +12,7 @@
         <x-input title="提现金额" name="username" v-model="withDrawObj.quantity" placeholder="请输入"></x-input>
         <cell title="银行卡" value-align="left" is-link @click.native="toShowCardPopup">{{withDrawObj.cardName}}{{handleCardNo}}</cell>
       </group>
-      <p class="attention-msg">注：提现将扣除5%的手续费</p>
+      <p class="attention-msg">注：提现将扣除2%的手续费</p>
       <x-button class="submit-btn" type="primary" @click.native="applyWithdraw">提交</x-button>
     </div>
     <div v-show="index === 1" class="tab-swiper">
