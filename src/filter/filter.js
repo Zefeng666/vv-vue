@@ -9,7 +9,7 @@ Vue.filter("formatVipLevel", function (status) {
   } else if (status == 1) {
     return "经销商";
   } else if (status == 2) {
-    return "总代理";
+    return "商务批发商";
   } else if (status == -1) {
     return "普通用户";
   }
