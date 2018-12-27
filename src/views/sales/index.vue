@@ -10,17 +10,17 @@
       <card>
         <div slot="content" class="card-demo-flex card-demo-content01">
           <div class="vux-1px-r">
-            <span class="card-top-text">您的推荐人</span>
+            <span class="card-top-text">我的推荐人</span>
             <br/>
             <span class="card-bottom-text">{{userInfo.recommendUser || '无'}}</span> 
           </div>
           <div class="vux-1px-r">
-            <span class="card-top-text">您最近的经销商</span>
+            <span class="card-top-text">我最近的经销商</span>
             <br/>
             <span class="card-bottom-text">{{userInfo.recentDealer || '无'}}</span> 
           </div>
           <div>
-            <span class="card-top-text">您最近的商务批发商</span>
+            <span class="card-top-text">我最近的商务批发商</span>
             <br/>
             <span class="card-bottom-text">{{userInfo.recentProxy || '无'}}</span> 
           </div>
@@ -154,7 +154,7 @@ export default {
   padding: .4rem 0;
 }
 .card-top-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 .card-bottom-text {
   font-size: 14px;
