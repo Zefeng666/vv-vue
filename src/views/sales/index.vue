@@ -20,7 +20,7 @@
             <span class="card-bottom-text">{{userInfo.recentDealer || '无'}}</span> 
           </div>
           <div>
-            <span class="card-top-text">您最近的总代理</span>
+            <span class="card-top-text">您最近的商务批发商</span>
             <br/>
             <span class="card-bottom-text">{{userInfo.recentProxy || '无'}}</span> 
           </div>
